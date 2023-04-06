@@ -1,0 +1,120 @@
+body{
+    
+    border: 10px groove green;
+    margin: 0;
+     
+}
+.background{
+    background-image: url(./food1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+.uppercontainer{
+    display: flex;
+    padding: 10px;
+}
+.box{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 5px solid red;
+    border-radius: 25px;
+    font-style: italic;
+    text-align: center;
+}
+.leftbox{
+    width: 300px;
+    height: 80px;
+
+}
+.midbox{
+    width: 420px;
+    height: 30px;
+    margin-left: -6%; 
+    margin-top: 1%;
+      
+}
+.rightbox{
+    width: 300px;
+    height: 80px;
+    margin-left: 20%;
+}
+.circle{
+    border-radius: 50%;
+    width: 380px;
+    height: 380px;
+    background-color: aqua;
+    border: 5px solid gray; 
+    margin-top: 15%;
+    margin-left: 3%;
+      
+}
+.circletext{
+    margin-top: 100px;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: darkblue;
+
+}
+.formbox{
+    width: 310px;
+    height: 600px;
+    background-color: white;
+    border: 10px red dashed;
+    text-align: center;
+    margin-left: 50%;
+    margin-top: -40%;
+    color: red;
+}
+.midcon{
+    display: flex;
+    padding: 10px;
+}
+.start{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 5px solid red;
+    border-radius: 25px;
+    font-style: italic;
+    text-align: center;
+    margin-left: 30%;
+    height: 30px;
+    width: 450px;
+}
+.lowercontainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+    
+}
+.menubox{
+    width: 300px;
+    height: 230px;
+    background-color: cyan;
+    border: 5px solid gray;
+    border-radius: 25px;
+    text-align: center;
+    color: blue;
+}
+.menu{
+    width: 300px;
+    height: 260px;
+    background-color: cyan;
+    border: 5px solid gray;
+    border-radius: 20px;
+    text-align: center;
+    color: blue; 
+    
+    
+}
+.space{
+    height: 50px;
+}
